@@ -196,3 +196,36 @@ h3 {
     font-size: 24px;
     padding-right: 30px;
 }
+
+.action {
+    padding: 5rem 0;
+}
+
+.action .wrapper {
+    background-color: var(--button-color);
+    color: var(--second-color);
+    margin: 1rem auto;
+    max-width: 1020px;
+    padding: 3.1rem 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+
+.action .left-part h3 {
+    font-size: 24px;
+}
+
+.action .left-part p {
+    font-size: 18px;
+}
+
+.action button {
+    font-size: 18px;
+    padding: 0px 30px;
+    margin: 9px 0 5px;
+    border: 2px solid var(--second-color);
+    background: var(--button-color);
+    color: var(--second-color);
+    border-radius: 7px;
+}
