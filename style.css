@@ -229,3 +229,13 @@ h3 {
     color: var(--second-color);
     border-radius: 7px;
 }
+
+.footer {
+    background-color: var(--first-color);
+    color: var(--second-color);
+    font-size: 18px;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
