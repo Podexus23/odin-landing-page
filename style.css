@@ -24,7 +24,8 @@ a {
     text-decoration: none;
 }
 
-p {
+p,
+h3 {
     margin: 0;
 }
 
@@ -143,6 +144,7 @@ p {
     flex-direction: column;
     align-items: center;
     padding: 3rem 3rem 6rem;
+    color: var(--first-color);
 }
 
 .info .title {
@@ -170,4 +172,27 @@ p {
 .info-block p {
     text-align: center;
     font-size: 18px;
+}
+
+.quote {
+    background-color: var(--third-color);
+}
+
+.quote .wrapper {
+    display: flex;
+    color: var(--first-color);
+    padding: 8rem 19rem 6.5rem 21.5rem;
+    flex-direction: column;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote .author {
+    align-self: flex-end;
+    font-size: 24px;
+    padding-right: 30px;
 }
